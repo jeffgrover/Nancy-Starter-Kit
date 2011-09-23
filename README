@@ -1,0 +1,21 @@
+There’s a popular lightweight Ruby web app framework called “Sinatra” many of you are probably familiar with.
+You can do a lot with it by writing very little code… just set up your URL route to execute RESTful commands & serve pages.
+ 
+Recently, I found that there’s a C# framework inspired by it called “Nancy”.  (Nancy Sinatra… get it?).
+ 
+This is a simple project to get you started, if you’re interested in playing with… um… her.
+ 
+(The “StaticContentBootstrapper” just allows this self-hosting nancy app to serve up static content.
+Nancy can also be served up by IIS/ASP.NET… and you wouldn’t need this)
+ 
+This example doesn’t do anything very exciting…  but if you run the project and connect to
+http://localhost:8888/
+OR     http://localhost:8888/?username=MyName
+ 
+You’ll see it illustrates the very basics of writing a controller to render model objects and parameters in a view.
+ 
+If you’re interested in going further with… um… Nancy, check out:
+ 
+The “Razor” view template engine used in this example  http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx
+The “Nancy” source code and full project  https://github.com/NancyFx/Nancy
+“Mongo DB”, which is a great NO-SQL indexed doc store   http://www.mongodb.org/display/DOCS/CSharp+Language+Center 
